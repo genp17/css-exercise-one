@@ -1,36 +1,42 @@
-body
+body {
   font-size: 14px;
 }
 
+/*this styles the nav section*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/*this sets width and margin of the section element*/
 section {
   margin: 0 auto;
   width: 60%;
 }
 
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
-.example, h3 {
+/*this styles elements with the class example*/
+.example {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/*this sets the font size for all h3*/
 h3 {
   font-size: 1.3em;
 }
 
+/*this styles the elements with the class element */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
+}
